@@ -320,3 +320,43 @@ h2 {
 .unpaid:hover .item__description {
     font-weight: 900;
 }
+
+
+@media only screen and (max-width: 400px) {
+    .top {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .budget {
+        display: inline;
+        justify-content: center;
+    }
+
+    .bottom {
+        width: 100vw;
+    }
+
+    .add__type {
+        width: 35px;
+    }
+
+    .add__description {
+        width: 100px;
+    }
+
+    .container {
+        display: flex;
+        width: 400px;
+        margin-left: 20px;
+    }
+
+    .income, .expenses {
+        width: 150px;
+        font-size: 12px;
+    }
+
+    .icome__title, .expenses__title {
+        font-size: 15px;
+    }
+}
