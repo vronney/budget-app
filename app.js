@@ -199,7 +199,7 @@ var UIController = (function() {
 
                  html = `<div class="item clearfix" id="exp-%id%"><div class="item__description">%description%</div><div class="right clearfix">
                  <div class="item__value">%value%</div><div class="item__percentage">21%</div><div class="item__delete">
-                 <button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button></div></div></div>`;
+                 <button class="item__delete--btn"><img src="https://img.icons8.com/office/16/000000/cancel.png"></button></div></div></div>`;
                 }   
                 // Replace the placeholder text with some actual data
                 newHtml = html.replace('%id%', obj.id);
