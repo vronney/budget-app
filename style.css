@@ -358,5 +358,10 @@ h2 {
 
     .icome__title, .expenses__title {
         font-size: 15px;
+        margin-left: 40px;
+    }
+
+    .income__list, .expenses__list {
+        font-size: 10px;
     }
 }
