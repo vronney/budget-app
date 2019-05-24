@@ -192,8 +192,7 @@ var UIController = (function() {
                     element = DOMstrings.incomeContainer;
 
                 html = `<div class="item clearfix" id="inc-%id%"><div class="item__description">%description%</div><div
-                class="right clearfix"><div class="item__value">%value%</div><div class="item__delete"><button class="item__delete--btn"><i 
-                class="ion-ios-close-outline"></i></button></div></div></div>`;
+                class="right clearfix"><div class="item__value">%value%</div><div class="item__delete"><button class="item__delete--btn"><img src="https://img.icons8.com/office/16/000000/cancel.png"></button></div></div></div>`;
                 } else if (type === 'exp') {   
                     element = DOMstrings.expensesContainer;
 
