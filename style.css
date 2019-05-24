@@ -364,4 +364,9 @@ h2 {
     .income__list, .expenses__list {
         font-size: 10px;
     }
+
+    .item__percentage {
+        margin-left: 2px;
+        font-size: 8px;
+    }
 }
