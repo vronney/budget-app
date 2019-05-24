@@ -322,7 +322,7 @@ h2 {
 }
 
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 450px) {
     .top {
         width: 100vw;
         height: 50vh;
